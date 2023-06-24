@@ -1,6 +1,6 @@
 <template>
-    <div>
-      <NuxtWelcome />
-    </div>
+    <main>
+      <h1>Wolfgang ihle</h1>
+    </main>
   </template>
   
