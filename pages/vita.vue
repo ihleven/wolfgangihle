@@ -7,7 +7,7 @@
           <div class="lg:pl-20">
             <div class="max-w-xs px-2.5 lg:max-w-none">
               <img
-                src="portrait.jpg"
+                src="~/assets/portrait.jpg"
                 alt="Wolfgang"
                 class="w-64 lg:w-96 aspect-square rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
@@ -15,7 +15,7 @@
           </div>
           <div class="lg:order-first lg:row-span-2">
             <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              Ich bin Wolfgang Ihle. Ich habe mein Leben der Kunst gewidmet.
+              Wolfgang Ihle. Ein Leben für die Kunst.
             </h1>
             <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
