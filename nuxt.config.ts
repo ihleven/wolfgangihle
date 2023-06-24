@@ -8,7 +8,7 @@ export default defineNuxtConfig({
   ],
 
   storyblok: {
-    accessToken: "ZLCu79cX2X1mcQQ0TwHCiAtt"
+    accessToken: process.env.STORYBLOK_TOKEN
   },
 
   vite: {
