@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "wolfgangihle",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -10,7 +10,11 @@
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
+    "@nuxtjs/tailwindcss": "^6.8.0",
     "@types/node": "^18",
     "nuxt": "^3.5.2"
+  },
+  "dependencies": {
+    "@storyblok/nuxt": "^5.5.0"
   }
 }
