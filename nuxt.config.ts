@@ -6,10 +6,14 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     "@storyblok/nuxt"
   ],
-
+  
+  
+  
   storyblok: {
     accessToken: process.env.STORYBLOK_TOKEN
   },
+
+ 
 
   vite: {
     optimizeDeps: { exclude: ['fsevents'] }, // wegen build-Fehler
