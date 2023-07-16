@@ -22,7 +22,7 @@
       >
         <!-- <nav class="flex flex-col items-stretch font-heading  text-3xl text-white"> -->
         <div class="mb-10 flex items-center justify-between">
-          <a href="/" aria-label="Dizzie" class="md:text-red inline-block text-pink-100">
+          <a v-if="false" href="/" aria-label="Dizzie" class="md:text-red inline-block text-pink-100">
             <svg viewBox="0 0 1432.7 674.07" width="89" height="42" fill="currentColor" aria-hidden="">
               <path
                 d="M216.79,241.55c-21.21-28.28-53.73-45.72-91.9-45.72C54.2,195.83,0,259,0,341.93,0,424.4,54.2,484.25,124.89,484.25c42.88,0,76.82-18.85,98-50.42V475.3h89.54V107.7H216.79Zm-57.5,160.7c-33.46,0-59.38-28.28-59.38-62.21,0-35.35,25.92-62.21,59.38-62.21s60.8,26.86,60.8,62.21C220.09,374,192.75,402.25,159.29,402.25Z"
@@ -51,7 +51,7 @@
                     <a class="block" href="/mission">Mission</a>
                 </nav> -->
         <nav v-for="(href, label) in nav" :key="label" @click="close">
-          <NuxtLink class="font-heading text-3xl text-white" :to="href">
+          <NuxtLink class="font-heading text-3xl leading-relaxed text-white" :to="href">
             {{ label }}
             <span
               class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"

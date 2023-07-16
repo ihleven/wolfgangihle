@@ -17,10 +17,6 @@
         </label>
       </article>
     </section>
-
-    <a href="/katalog-farben-des-lebens.pdf">
-      <img src="/katalog-farben-des-lebens.jpeg" />
-    </a>
   </main>
 </template>
 
