@@ -99,6 +99,6 @@
     vita: '/vita',
     // werk: '/werk',
     ausstellungen: '/ausstellungen',
-    // kataloge: '/kataloge'
+    kataloge: '/kataloge',
   }
 </script>
