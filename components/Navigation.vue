@@ -16,7 +16,7 @@
   </nav>
 
   <Popover v-slot="{ open }" class="relative z-10 block md:hidden">
-    <PopoverPanel v-if="open" v-slot="{ close }" class="fixed inset-0 bg-green-300">
+    <PopoverPanel v-if="open" v-slot="{ close }" class="fixed inset-0 bg-[url('/monochromie-gelb.jpg')]">
       <div
         class="wrap z-100 bg-red fixed relative left-0 top-0 mx-auto flex h-full w-full flex-col items-start items-stretch justify-start p-8 px-4 px-8"
       >

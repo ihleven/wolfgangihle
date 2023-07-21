@@ -2,7 +2,7 @@
   <main class="grid w-screen grid-cols-4 grid-rows-[repeat(8,_minmax(0,_1fr))] gap-1 bg-gray-50 p-1">
     <!-- bg-[url('/atelier.jpg')] bg-contain bg-no-repeat -->
     <header
-      class="col-span-4 col-start-1 row-span-1 row-start-1 flex items-center justify-between border border-black bg-white p-2 sm:p-4 md:p-6 lg:p-8"
+      class="col-span-4 col-start-1 row-span-1 row-start-1 flex items-center justify-between border-0 border-black bg-white bg-[url('/monochromie-gelb.jpg')] bg-cover p-2 sm:p-4 md:p-6 lg:p-8"
     >
       <!-- <div class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"> -->
       <NuxtLink class="relative block px-3 py-2 transition hover:underline" to="/">
