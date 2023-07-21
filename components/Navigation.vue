@@ -45,6 +45,9 @@
               ></path>
             </svg>
           </a>
+          <NuxtLink class="relative block px-3 py-2 transition hover:underline" to="/" @click="close">
+            <span>wolfgang<strong>ihle</strong></span>
+          </NuxtLink>
         </div>
         <!-- </nav> -->
         <!-- <nav class=" font-heading text-3xl text-white">
