@@ -40,24 +40,44 @@
     </nuxt-link>
 
     <section
-      class="col-span-4 col-start-1 row-span-2 row-start-5 flex items-end bg-[url('/IMG_1902.jpeg')] bg-cover bg-right bg-no-repeat"
+      class="col-span-3 col-start-1 row-span-2 row-start-5 flex items-end bg-[url('/IMG_1902.jpeg')] bg-contain bg-left"
     >
       <!-- drei bilder schwarz gelb blau -->
     </section>
 
+    <section
+      class="col-span-1 col-start-4 row-span-2 row-start-5 flex items-end bg-[url('/IMG_3715.jpg')] bg-cover bg-right-top bg-no-repeat"
+    >
+      <!-- grau rot -->
+    </section>
+
+    <section
+      class="col-span-2 col-start-1 row-span-3 row-start-7 flex items-end bg-[url('/IMG_2358.jpeg')] bg-cover bg-right-top bg-no-repeat"
+    >
+      <!-- barock -->
+    </section>
+
+    <section
+      class="col-span-2 col-start-3 row-span-1 row-start-7 flex items-end bg-[url('/malen-boden.jpg')] bg-cover bg-center"
+    >
+      <!-- Malen am Boden -->
+    </section>
+
     <nuxt-link
       to="/monochromie"
-      class="col-span-2 col-start-1 row-span-2 row-start-7 flex items-end bg-[url('/IMG_1405.jpg')] bg-cover bg-right-top bg-no-repeat"
+      class="row-start-10 col-span-2 col-start-3 row-span-2 flex items-end bg-[url('/IMG_1405.jpg')] bg-cover bg-right-top bg-no-repeat"
     >
       <!-- rot licht schatten -->
     </nuxt-link>
 
     <section
-      class="col-span-2 col-start-3 row-span-2 row-start-7 flex items-end bg-[url('/malen-boden.jpg')] bg-cover bg-center"
-    ></section>
+      class="row-start-12 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_4339.jpg')] bg-cover bg-right-top bg-no-repeat"
+    >
+      <!-- farben -->
+    </section>
 
     <section
-      class="row-start-9 col-span-2 col-start-3 row-span-2 flex items-center overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
+      class="row-start-10 col-span-2 col-start-3 row-span-2 flex items-center overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
     >
       <p class="block p-8 text-sm font-light text-white">
         Monochrome Bilder als Vorstellungswelt. Farben als Sprache ...
@@ -67,19 +87,22 @@
     </section>
 
     <section
-      class="col-span-2 col-start-1 row-span-3 row-start-7 flex items-end bg-[url('/IMG_2358.jpeg')] bg-cover bg-right-top bg-no-repeat"
-    >
-      <!-- rot licht schatten -->
-    </section>
-
-    <section
-      class="row-start-10 col-span-2 col-start-1 row-span-1 flex items-end bg-[url('/IMG_3070.jpeg')] bg-cover bg-center bg-no-repeat"
+      class="row-start-12 col-span-2 col-start-1 row-span-1 flex items-end bg-[url('/IMG_3070.jpeg')] bg-cover bg-center bg-no-repeat"
     >
       <!-- 4 kleine -->
     </section>
-    <!-- <section
-      class="col-span-2 col-start-1 row-[start_8_/_start_8] row-span-2 flex items-end bg-[url('/telefon.jpeg')] bg-cover bg-center"
-    ></section> -->
+
+    <section
+      class="row-start-11 col-span-2 col-start-3 row-span-2 flex items-end bg-[url('/Dietrich.jpeg')] bg-cover bg-center"
+    >
+      <!-- dietrich -->
+    </section>
+
+    <section
+      class="col-span-2 col-start-1 row-[start_8_/_start_8] row-span-2 flex items-end bg-[url('/IMG_4132.jpeg')] bg-cover bg-center"
+    >
+      <!-- grün -->
+    </section>
   </main>
 </template>
 
