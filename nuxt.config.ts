@@ -2,18 +2,16 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
 
-  modules: [
-    '@nuxtjs/tailwindcss',
-    "@storyblok/nuxt"
-  ],
-  
-  
-  
+  modules: ['@nuxtjs/tailwindcss', '@storyblok/nuxt'],
+
   storyblok: {
-    accessToken: process.env.STORYBLOK_TOKEN
+    accessToken: process.env.STORYBLOK_TOKEN,
   },
 
- 
+  // tailwindcss: {
+  //   // configPath: '@/tailwind.config.js',
+  //   cssPath: '@/tailwind.css',
+  // },
 
   vite: {
     optimizeDeps: { exclude: ['fsevents'] }, // wegen build-Fehler

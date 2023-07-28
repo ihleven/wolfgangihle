@@ -1,14 +1,32 @@
 <template>
   <main>
     <section class="mx-auto mt-16 max-w-2xl sm:px-8 lg:max-w-5xl">
-      <header class="max-w-2xl">
+      <header class="max-w-2xl px-2">
         <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
           Monochrome Gedanken
         </h1>
         <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-          Lorem ipsum dolor sit qua retro sequoidnt utset quitastet pangluest malunt.
+          Monochrom gemalte Bilder als Vorstellungswelt. Und die Farben als ihre Sprache. Sie leuchten oder reduzieren
+          sich ins Nichts. Sie sind geworden aus künstlerischem Tun. Ohne Inhalt. Ohne Formgebendes. In der Logik eines
+          Anwesendseins einer Farbe. In einer Farbe als reine Fläche oder aus eng beieinander liegenden Farbstufen zu
+          einem Eins werdend. Die Antworten auf die Fragen nach dem Sinn eines solchen Bildes muss aus der Anschauung
+          kommen. Aus einem reflektierenden Sehen. Ein Eintauchen in eine Vorstellungswelt. In einen freien
+          Gedankenraum.
         </p>
       </header>
+
+      <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+        <li
+          class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
+        >
+          <img src="/IMG_3092.jpg" alt="rot" class="pointer-events-none object-cover group-hover:opacity-75" />
+        </li>
+        <li
+          class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
+        >
+          <img src="/IMG_3092.jpg" alt="rot" class="pointer-events-none object-cover group-hover:opacity-75" />
+        </li>
+      </ul>
     </section>
 
     <section class="mx-auto mt-16 max-w-2xl sm:px-8 lg:max-w-5xl">
