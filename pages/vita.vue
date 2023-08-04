@@ -6,8 +6,13 @@
           <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
             <div class="lg:pl-20">
               <div class="max-w-xs px-2.5 lg:max-w-none">
-                <img
+                <!-- <img
                   src="~/assets/portrait.jpg"
+                  alt="Wolfgang"
+                  class="aspect-square w-64 rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 lg:w-96"
+                /> -->
+                <img
+                  src="/IMG_4458.jpg"
                   alt="Wolfgang"
                   class="aspect-square w-64 rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 lg:w-96"
                 />

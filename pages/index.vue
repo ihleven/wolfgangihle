@@ -52,9 +52,12 @@
     </section>
 
     <section
-      class="col-span-2 col-start-1 row-span-3 row-start-7 flex items-end bg-[url('/IMG_2358.jpeg')] bg-cover bg-right-top bg-no-repeat"
+      class="col-span-2 col-start-1 row-span-2 row-start-7 flex items-end bg-[url('/IMG_2358.jpeg')] bg-contain bg-left bg-no-repeat"
     >
       <!-- barock -->
+      <p class="origin-top-right translate-y-full rotate-90 px-2 py-1 font-light leading-none">
+        Ein lustvoll barockes Gestreite
+      </p>
     </section>
 
     <section
@@ -77,13 +80,13 @@
     </section>
 
     <section
-      class="row-start-10 col-span-2 col-start-3 row-span-2 flex items-center overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
+      class="row-start-10 col-span-2 col-start-3 row-span-2 flex aspect-square items-end overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
     >
-      <p class="block p-8 text-sm font-light text-white">
-        Monochrome Bilder als Vorstellungswelt. Farben als Sprache ...
-        <br />
-        <nuxt-link to="/texte" class="p-1">[ weiterlesen ]</nuxt-link>
-      </p>
+      <Dialog>
+        <p class="block p-8 text-left align-bottom text-sm font-light text-white">
+          Monochrome Bilder als Vorstellungswelt. Farben als Sprache&nbsp;...
+        </p>
+      </Dialog>
     </section>
 
     <section
