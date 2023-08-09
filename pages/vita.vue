@@ -14,8 +14,9 @@
                 <img
                   src="/IMG_4458.jpg"
                   alt="Wolfgang"
-                  class="aspect-square w-64 rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 lg:w-96"
+                  class="aspect-square w-64 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 lg:w-96"
                 />
+                <!-- rotate-3  -->
               </div>
             </div>
             <div class="lg:order-first lg:row-span-2">

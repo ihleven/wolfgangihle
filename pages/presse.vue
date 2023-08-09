@@ -11,7 +11,7 @@
       <ul role="list" class="grid grid-cols-1 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
         <li>
           <h3 class="pl-2 text-xs font-light text-gray-500">
-            2022 | von Rainer Braxmeier zur Ausstellung "Farben des Lebens" im C-Punkt Münsterforum Freiburg
+            2022 | Ausstellung "Farben des Lebens" im C-Punkt Münsterforum Freiburg
           </h3>
           <div
             class="group relative block w-full overflow-hidden rounded-lg bg-white focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"

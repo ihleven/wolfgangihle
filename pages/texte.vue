@@ -1,6 +1,6 @@
 <template>
-  <main class="pb-16">
-    <section class="mx-auto mt-16 max-w-2xl px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
+  <main class="pb-16 pt-8">
+    <!-- <section class="mx-auto mt-16 max-w-2xl px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
       <h1 class="text-3xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
         Monochrome Gedanken
       </h1>
@@ -24,13 +24,14 @@
           <img src="/IMG_3092.jpg" alt="rot" class="pointer-events-none object-cover group-hover:opacity-75" />
         </li>
       </ul>
-    </section>
+    </section> -->
 
-    <section class="mx-auto mt-16 max-w-2xl px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
+    <section class="mx-auto max-w-2xl px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
       <h1 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
         Kleines gelbes Mauerstück
       </h1>
-      <p class="mt-6 text-base text-zinc-600">
+      <p class="mt-2 text-sm text-zinc-500">von Wolfang Ihle, 2021</p>
+      <p class="mt-4 text-base text-zinc-600">
         Die Anregung zu diesem monochromen Bild entstammt der Lektüre von Marcel Proust‘s 5. Band „Die Gefangene“ aus
         seinem Gesamtwerk „Auf der Suche nach der verlorenen Zeit“.
       </p>
@@ -38,6 +39,7 @@
         class="group mt-4 w-full focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
       >
         <img :src="`/IMG_0519.jpg`" alt="" class="pointer-events-none object-cover group-hover:opacity-75" />
+        <figcaption class="pt-1 text-xs text-gray-600">Öl auf Leinwand, 100x80 cm, 2015</figcaption>
       </figure>
       <p class="mt-4">
         Der ältergewordene und kranke Schriftsteller Bergotte ist noch einmal ins Museum gegangen, um ein Bild vom
@@ -84,19 +86,20 @@
     </section> -->
 
     <section class="mx-auto mt-16 max-w-2xl px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
-      <h1 class="text-center text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+      <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
         Monochrome Malerei VIII
       </h1>
-      <p class="mt-6 text-base text-zinc-600">
+      <p class="mt-2 text-sm text-zinc-500">von Wolfang Ihle, März 2022</p>
+      <p class="mt-4 text-base text-zinc-600">
         Unser Denken ist ein Sehen des Gedachten. Der um uns sich befindende Raum zeigt die vorhandenen Dinge, lässt
         Geräusche hören und Bewegungen und Ausdrücke wahrnehmen. Wie wir sie wahrnehmen, ist immer eine persönliche
         Sache und wird von jedem(r) selbst im Laufe des Lebens gestaltet.
       </p>
-      <figure
+      <!-- <figure
         class="group mt-4 w-full focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
       >
         <img :src="`/IMG_0519.jpg`" alt="" class="pointer-events-none object-cover group-hover:opacity-75" />
-      </figure>
+      </figure> -->
       <p class="mt-4">
         Die Gedanken unserer letzten Jahrzehnte, die Bildern einen Weg über das nur materiell Gesehene weit hinaus
         eröffnet haben, bedeuten eine Sichtänderung und eine Weiterentwicklung malerischen Schaffens vom
