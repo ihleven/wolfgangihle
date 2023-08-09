@@ -1,20 +1,38 @@
 <template>
   <main>
-    <section class="mx-auto mt-16 max-w-2xl sm:px-8 lg:max-w-5xl">
-      <header class="max-w-2xl">
-        <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-          Über mich in der Presse
-        </h1>
-        <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+    <section class="mx-auto max-w-2xl sm:px-8 lg:max-w-5xl">
+      <header class="max-w-2xl pb-4 pt-8 text-center">
+        <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Aus der Presse</h1>
+        <!-- <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           Lorem ipsum dolor sit qua retro sequoidnt utset quitastet pangluest malunt.
-        </p>
+        </p> -->
       </header>
 
-      <ul role="list" class="grid grid-cols-2 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+      <ul role="list" class="grid grid-cols-1 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+        <li
+          class="group relative block w-full w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
+        >
+          <img :src="`/nurFarbeUndFläche.jpg`" alt="" class="pointer-events-none object-cover group-hover:opacity-75" />
+        </li>
+
         <li
           class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
         >
-          <img :src="`/nurFarbeUndFläche.jpg`" alt="" class="pointer-events-none object-cover group-hover:opacity-75" />
+          <img
+            :src="`/presse_2016-07-19_Offenburger Tageblatt_Farben mit hohem Symbolwert.jpg`"
+            alt=""
+            class="pointer-events-none object-cover group-hover:opacity-75"
+          />
+        </li>
+
+        <li
+          class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
+        >
+          <img
+            :src="`/presse_Farbenfrohe Bilder, die es in sich haben.jpg`"
+            alt=""
+            class="pointer-events-none object-cover group-hover:opacity-75"
+          />
         </li>
       </ul>
     </section>
