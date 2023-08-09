@@ -19,11 +19,11 @@
             <polyline points="15 18 9 12 15 6"></polyline>
           </svg>
         </NuxtLink>
-        <span>wolfgang<strong>ihle</strong></span>
+        <span class="block text-xs leading-none">wolfgang<strong class="block leading-none">ihle</strong></span>
       </nav>
-      <!-- <span>
+      <span>
         <strong>{{ route.name }}</strong>
-      </span> -->
+      </span>
       <!-- </div> -->
       <Navigation />
     </header>
