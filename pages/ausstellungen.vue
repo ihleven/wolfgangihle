@@ -79,7 +79,7 @@
         'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg4MDk3OTIsIlVzZXJuYW1lIjoid29sZmdhbmcifQ._IoSIHrBkHpQXRNnyspcRVnA2eF8jPJjns8bZjQsKNA',
     },
   })
-  const { data: beteiligungen } = await useFetch('/api/beteiligungen', {
+  const { data: beteiligungen } = await useFetch('/api/ausstellungen?type=B', {
     key: 'ausstellungsbeteiligungen',
 
     headers: {
@@ -90,16 +90,18 @@
   console.log('ausstellungen', ausstellungen.value, beteiligungen.value)
   const nachJahren = computed(() => {
     const byyears = {}
-    ausstellungen.value.forEach(a => {
-      if (a.typ === 'Einzelausstellung' || a.typ === 'Einzelausstellung mit Katalog') {
-        if (a.typ === 'Einzelausstellung mit Katalog') {
-          a.katalog = true
+    if (ausstellungen.value) {
+      ausstellungen.value.forEach(a => {
+        if (a.typ === 'Einzelausstellung' || a.typ === 'Einzelausstellung mit Katalog') {
+          if (a.typ === 'Einzelausstellung mit Katalog') {
+            a.katalog = true
+          }
+          if (!byyears[a.jahr]) byyears[a.jahr] = []
+          byyears[a.jahr].push(a)
+          byyears[a.jahr].sort((i, j) => (i.id < j.id ? -1 : i.id === j.id ? 0 : 1))
         }
-        if (!byyears[a.jahr]) byyears[a.jahr] = []
-        byyears[a.jahr].push(a)
-        byyears[a.jahr].sort((i, j) => (i.id < j.id ? -1 : i.id === j.id ? 0 : 1))
-      }
-    })
+      })
+    }
     // [[year, exhibitions] ... ]
     return Object.entries(byyears)
       .map(k => [k[0], k[1]])
@@ -107,16 +109,18 @@
   })
   const betNachJahren = computed(() => {
     const byyears = {}
-    beteiligungen.value.forEach(a => {
-      // if (a.typ === 'Einzelausstellung' || a.typ === 'Einzelausstellung mit Katalog') {
-      if (a.typ === 'Einzelausstellung mit Katalog') {
-        a.katalog = true
-      }
-      if (!byyears[a.jahr]) byyears[a.jahr] = []
-      byyears[a.jahr].push(a)
-      byyears[a.jahr].sort((i, j) => (i.id < j.id ? -1 : i.id === j.id ? 0 : 1))
-      // }
-    })
+    if (beteiligungen.value) {
+      beteiligungen.value.forEach(a => {
+        // if (a.typ === 'Einzelausstellung' || a.typ === 'Einzelausstellung mit Katalog') {
+        if (a.typ === 'Einzelausstellung mit Katalog') {
+          a.katalog = true
+        }
+        if (!byyears[a.jahr]) byyears[a.jahr] = []
+        byyears[a.jahr].push(a)
+        byyears[a.jahr].sort((i, j) => (i.id < j.id ? -1 : i.id === j.id ? 0 : 1))
+        // }
+      })
+    }
     // [[year, exhibitions] ... ]
     return Object.entries(byyears)
       .map(k => [k[0], k[1]])

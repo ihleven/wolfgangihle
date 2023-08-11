@@ -1,6 +1,7 @@
 package handler
 
 import (
+	"fmt"
 	"net/http"
 )
 
@@ -15,6 +16,8 @@ func HandlerAusstellungen(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "application/json")
 		w.Write(Beteiligungen)
 	}
+	token, _ := r.Cookie("token")
+	fmt.Printf("cookie: %#v\n", token)
 }
 
 var Ausstellungen []byte = []byte(`[
