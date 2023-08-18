@@ -68,6 +68,51 @@
         </template>
       </dl>
     </div>
+
+    <div class="pt-24">
+      <!-- <div class="sticky top-12">
+        <h1 class="bg-white/80 p-2 text-xl font-bold md:p-5">Galerien</h1>
+      </div> -->
+
+      <dl class="mx-auto max-w-screen-md pl-4 pr-12 text-gray-600 md:pl-8 md:pr-16">
+        <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">Vertreten über viele Jahre in folgenden Galerien</dt>
+        <!-- <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">
+          Galerie Wild <small class="pl-2 text-sm font-normal text-gray-400">Lahr</small>
+        </dt>
+        <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">
+          Galerie Akzente <small class="pl-2 text-sm font-normal text-gray-400">Karlsruhe</small>
+        </dt>
+        <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">
+          Galerie Unikat <small class="pl-2 text-sm font-normal text-gray-400">Karlsruhe</small>
+        </dt> -->
+
+        <dd class="mt-1.5 bg-white md:mt-2">
+          <div class="mr-auto flex-1 self-start pl-0 md:pl-4">
+            <h4 class="overflow-hidden text-ellipsis text-sm text-gray-900">
+              Galerie Wild
+              <small class="pl-2 text-sm font-normal text-gray-400">Lahr</small>
+            </h4>
+          </div>
+        </dd>
+        <dd class="mt-1.5 bg-white md:mt-2">
+          <div class="mr-auto flex-1 self-start pl-0 md:pl-4">
+            <h4 class="overflow-hidden text-ellipsis text-sm text-gray-900">
+              Galerie Akzente
+              <small class="pl-2 text-sm font-normal text-gray-400">Karlsruhe</small>
+            </h4>
+          </div>
+        </dd>
+        <dd class="mt-1.5 bg-white md:mt-2">
+          <div class="mr-auto flex-1 self-start pl-0 md:pl-4">
+            <h4 class="overflow-hidden text-ellipsis text-sm text-gray-900">
+              Galerie Unikat
+              <small class="pl-2 text-sm font-normal text-gray-400">Karlsruhe</small>
+            </h4>
+          </div>
+        </dd>
+        <small class="pl-4 text-xs font-normal text-gray-400">(Vertretungen bestehen nicht mehr)</small>
+      </dl>
+    </div>
   </main>
 </template>
 

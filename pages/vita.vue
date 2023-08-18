@@ -1,5 +1,5 @@
 <template>
-  <main class="mt-16 sm:mt-32 sm:px-8">
+  <main class="mb-24 mt-16 sm:mt-32 sm:px-8">
     <div class="mx-auto max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
@@ -93,9 +93,14 @@
                   <span class="inline-block shrink-0 basis-24 whitespace-nowrap">1999</span> Kunstpreis
                   St.Andreasberg/Harz
                 </li>
-
-                <li>2016 Kirche. Ort künstlerischer Aussage. St. Bartholomäus-Kirche in Ortenberg</li>
-                <li>2022 Münsterforum Freiburg, Farben des Lebens/Monochromie.</li>
+                <li class="flex">
+                  <span class="inline-block shrink-0 basis-24 whitespace-nowrap">2016</span> Kirche. Ort künstlerischer
+                  Aussage. St. Bartholomäus-Kirche in Ortenberg
+                </li>
+                <li class="flex">
+                  <span class="inline-block shrink-0 basis-24 whitespace-nowrap">2022</span> Münsterforum Freiburg,
+                  Farben des Lebens/Monochromie.
+                </li>
 
                 <!-- <SocialLink href="#" icon={TwitterIcon}>
                 Follow on Twitter
