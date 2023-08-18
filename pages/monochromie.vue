@@ -15,12 +15,16 @@
           :href="`/monochrom/${img.id}.jpeg`"
           :data-pswp-width="img.foto?.w"
           :data-pswp-height="img.foto?.h"
-          :class="b.images.length == 2 ? 'w-1/2' : 'contain mx-auto max-h-[100vw]'"
+          :class="b.images.length == 2 ? 'w-1/2' : 'w-full'"
         >
-          <img :src="`/monochrom/${img.id}.jpeg`" :alt="img.id" class="h-full w-full" />
+          <img
+            :src="`/monochrom/${img.id}.jpeg`"
+            :alt="img.id"
+            :class="img.foto.h > img.foto.w ? 'contain mx-auto max-h-[100vw]' : ''"
+          />
         </a>
       </figure>
-      <aside class="w-full p-2 text-sm font-light text-gray-600">{{ b.caption }}</aside>
+      <aside class="w-full p-2 text-center text-sm font-light text-gray-600">{{ b.caption }}</aside>
     </section>
 
     <!-- <hr class="h-64" />
