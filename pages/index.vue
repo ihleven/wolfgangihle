@@ -40,68 +40,90 @@
     </nuxt-link>
 
     <section
-      class="col-span-3 col-start-1 row-span-2 row-start-5 flex items-end bg-[url('/IMG_1902.jpeg')] bg-contain bg-left"
+      class="col-span-4 col-start-1 row-span-3 row-start-5 flex items-end bg-[url('/IMG_1902.jpeg')] bg-cover bg-left"
     >
       <!-- drei bilder schwarz gelb blau -->
     </section>
 
     <section
+      v-if="false"
       class="col-span-1 col-start-4 row-span-2 row-start-5 flex items-end bg-[url('/IMG_3715.jpg')] bg-cover bg-right-top bg-no-repeat"
     >
       <!-- grau rot -->
     </section>
 
     <section
-      class="col-span-2 col-start-1 row-span-2 row-start-7 flex items-end bg-[url('/IMG_2358.jpeg')] bg-contain bg-left bg-no-repeat"
+      class="row-start-8 col-span-4 col-start-1 row-span-5 flex items-end bg-[url('/IMG_4460.jpeg')] bg-cover bg-left bg-no-repeat"
     >
-      <!-- barock -->
-      <p class="origin-top-right translate-y-full rotate-90 px-2 py-1 font-light leading-none">
+      <!-- Atelier -->
+      <!-- <p class="origin-top-right translate-y-full rotate-90 px-2 py-1 font-light leading-none">
         Ein lustvoll barockes Gestreite
-      </p>
+      </p> -->
     </section>
 
     <section
-      class="col-span-2 col-start-3 row-span-1 row-start-7 flex items-end bg-[url('/malen-boden.jpg')] bg-cover bg-center"
+      v-if="!open"
+      class="row-start-13 col-span-4 col-start-1 row-span-2 flex items-end bg-[url('/malen-boden.jpg')] bg-cover bg-center"
     >
       <!-- Malen am Boden -->
     </section>
 
-    <nuxt-link
-      to="/monochromie"
-      class="row-start-10 col-span-2 col-start-3 row-span-2 flex items-end bg-[url('/IMG_1405.jpg')] bg-cover bg-right-top bg-no-repeat"
-    >
-      <!-- rot licht schatten -->
-    </nuxt-link>
-
     <section
+      v-if="false"
       class="row-start-12 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_4339.jpg')] bg-cover bg-right-top bg-no-repeat"
     >
       <!-- farben -->
     </section>
 
-    <section
-      class="row-start-10 col-span-2 col-start-3 row-span-2 flex aspect-square items-end overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
+    <nuxt-link
+      v-if="!open"
+      to="/monochromie"
+      class="row-start-15 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_1405.jpg')] bg-cover bg-right-top bg-no-repeat"
     >
-      <Dialog>
-        <p class="block p-8 text-left align-bottom text-sm font-light text-white">
-          Monochrome Bilder als Vorstellungswelt. Farben als Sprache&nbsp;...
-        </p>
-      </Dialog>
+      <!-- rot licht schatten -->
+    </nuxt-link>
+
+    <section
+      class="flex aspect-square flex-col justify-end overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
+      :class="
+        open ? 'row-start-13 col-span-4 col-start-1 row-span-4' : 'row-start-15 col-span-2 col-start-3 row-span-2'
+      "
+    >
+      <!-- <Dialog> -->
+      <p v-if="!open" class="px-4 text-sm font-light text-white">
+        Monochrome Bilder als Vorstellungswelt. Farben als Sprache ...
+      </p>
+
+      <p v-else class="block p-8 text-left align-bottom text-sm font-light text-white">
+        ... Sie leuchten oder reduzieren sich ins Nichts. Sie sind geworden aus künstlerischem Tun. Ohne Inhalt. Ohne
+        Formgebendes. In der Logik eines Anwesendseins einer Farbe. In einer Farbe als reine Fläche oder aus eng
+        beieinander liegenden Farbstufen zu einem Eins werdend. Die Antworten auf die Fragen nach dem Sinn eines solchen
+        Bildes muss aus der Anschauung kommen. Aus einem reflektierenden Sehen. Ein Eintauchen in eine Vorstellungswelt.
+        In einen freien Gedankenraum.
+      </p>
+      <button class="m-1 self-end bg-transparent px-2 py-1 text-sm font-light text-white" @click="open = !open">
+        {{ open ? '[ schließen ]' : '[ alles anzeigen ]' }}
+      </button>
+      <!-- </Dialog> -->
+      <!-- <p v-if="!open" class="self-end p-2 text-sm font-light text-white">[...mehr]</p> -->
     </section>
 
     <section
-      class="row-start-12 col-span-2 col-start-1 row-span-1 flex items-end bg-[url('/IMG_3070.jpeg')] bg-cover bg-center bg-no-repeat"
+      v-if="false"
+      class="row-start-12 col-span-2 col-start-3 row-span-1 flex items-end bg-[url('/IMG_3070.jpeg')] bg-cover bg-center bg-no-repeat"
     >
       <!-- 4 kleine -->
     </section>
 
     <section
+      v-if="false"
       class="row-start-11 col-span-2 col-start-3 row-span-2 flex items-end bg-[url('/Dietrich.jpeg')] bg-cover bg-center"
     >
       <!-- dietrich -->
     </section>
 
     <section
+      v-if="false"
       class="col-span-2 col-start-1 row-[start_8_/_start_8] row-span-2 flex items-end bg-[url('/IMG_4132.jpeg')] bg-cover bg-center"
     >
       <!-- grün -->
@@ -110,7 +132,20 @@
 </template>
 
 <script setup>
+  // import { ref } from 'vue'
+  // import { TransitionRoot, TransitionChild, Dialog, DialogPanel, DialogTitle } from '@headlessui/vue'
+
   definePageMeta({
     layout: 'empty',
   })
+
+  // const isOpen = ref(false)
+  const open = ref(false)
+
+  // function closeModal() {
+  //   isOpen.value = false
+  // }
+  // function openModal() {
+  //   isOpen.value = true
+  // }
 </script>
