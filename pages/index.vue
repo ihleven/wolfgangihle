@@ -53,7 +53,7 @@
     </section>
 
     <section
-      class="row-start-8 col-span-4 col-start-1 row-span-5 flex items-end bg-[url('/IMG_4460.jpeg')] bg-cover bg-left bg-no-repeat"
+      class="row-start-8 col-span-4 col-start-1 row-span-6 flex items-end bg-[url('/IMG_4460.jpeg')] bg-cover bg-left-bottom bg-no-repeat"
     >
       <!-- Atelier -->
       <!-- <p class="origin-top-right translate-y-full rotate-90 px-2 py-1 font-light leading-none">
@@ -63,14 +63,14 @@
 
     <section
       v-if="!open"
-      class="row-start-13 col-span-4 col-start-1 row-span-2 flex items-end bg-[url('/malen-boden.jpg')] bg-cover bg-center"
+      class="row-start-14 col-span-4 col-start-1 row-span-2 flex items-end bg-[url('/malen-boden.jpg')] bg-cover bg-center"
     >
       <!-- Malen am Boden -->
     </section>
 
     <section
       v-if="false"
-      class="row-start-12 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_4339.jpg')] bg-cover bg-right-top bg-no-repeat"
+      class="row-start-13 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_4339.jpg')] bg-cover bg-right-top bg-no-repeat"
     >
       <!-- farben -->
     </section>
@@ -78,7 +78,7 @@
     <nuxt-link
       v-if="!open"
       to="/monochromie"
-      class="row-start-15 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_1405.jpg')] bg-cover bg-right-top bg-no-repeat"
+      class="row-start-16 col-span-2 col-start-1 row-span-2 flex items-end bg-[url('/IMG_1405.jpg')] bg-cover bg-right-top bg-no-repeat"
     >
       <!-- rot licht schatten -->
     </nuxt-link>
@@ -86,12 +86,12 @@
     <section
       class="flex aspect-square flex-col justify-end overflow-hidden bg-[url('/IMG_3092.jpg')] bg-cover bg-no-repeat"
       :class="
-        open ? 'row-start-13 col-span-4 col-start-1 row-span-4' : 'row-start-15 col-span-2 col-start-3 row-span-2'
+        open ? 'row-start-14 col-span-4 col-start-1 row-span-4' : 'row-start-15 col-span-2 col-start-3 row-span-2'
       "
     >
       <!-- <Dialog> -->
       <p v-if="!open" class="px-4 text-sm font-light text-white">
-        Monochrome Bilder als Vorstellungswelt. Farben als Sprache ...
+        Monochrom gemalte Bilder als Vorstellungswelt. Und die Farben als ihre Sprache. ...
       </p>
 
       <p v-else class="block p-8 text-left align-bottom text-sm font-light text-white">
@@ -110,7 +110,7 @@
 
     <section
       v-if="false"
-      class="row-start-12 col-span-2 col-start-3 row-span-1 flex items-end bg-[url('/IMG_3070.jpeg')] bg-cover bg-center bg-no-repeat"
+      class="row-start-13 col-span-2 col-start-3 row-span-1 flex items-end bg-[url('/IMG_3070.jpeg')] bg-cover bg-center bg-no-repeat"
     >
       <!-- 4 kleine -->
     </section>

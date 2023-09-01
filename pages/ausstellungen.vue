@@ -75,7 +75,9 @@
       </div> -->
 
       <dl class="mx-auto max-w-screen-md pl-4 pr-12 text-gray-600 md:pl-8 md:pr-16">
-        <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">Vertreten über viele Jahre in folgenden Galerien</dt>
+        <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">
+          Vertreten über viele Jahre in folgenden Galerien:
+        </dt>
         <!-- <dt class="border-b-0 border-black px-0 pb-1 pt-4 md:pt-6">
           Galerie Wild <small class="pl-2 text-sm font-normal text-gray-400">Lahr</small>
         </dt>
@@ -110,7 +112,7 @@
             </h4>
           </div>
         </dd>
-        <small class="pl-4 text-xs font-normal text-gray-400">(Vertretungen bestehen nicht mehr)</small>
+        <small class="pl-4 text-xs font-normal text-gray-400">(bestehen nicht mehr)</small>
       </dl>
     </div>
   </main>

@@ -77,27 +77,27 @@
     },
     {
       images: [{ id: 637, w: 100, h: 120, foto: { w: 3161, h: 2054 } }],
-      caption: 'Grau/Grün, Öl/Leinwand, 120x200cm, zweiteilig',
+      caption: 'Grau/Grün, Öl/Leinwand, 120x200cm, zweiteilig, 2009',
     },
     {
       images: [{ id: 691, foto: { w: 3606, h: 2135 } }],
-      caption: 'Lichtfülle (orange), Öl/Leinwand, 120x200cm, zweiteilig',
+      caption: 'Lichtfülle (orange), Öl/Leinwand, 120x200x4cm, zweiteilig, 2012/14',
     },
     {
       images: [{ id: 694, foto: { w: 2554, h: 3072 } }],
-      caption: 'o.T. (rot), Öl/Leinwand, 120x100cm',
+      caption: 'ohne Titel, Öl/Leinwand, 120x100cm, 2018',
     },
     {
       images: [{ id: 630, foto: { w: 319, h: 372 } }],
-      caption: 'Nonett I, Öl/Leinwand, 150x120cm',
+      caption: 'Nonett I, Öl/Leinwand, 150x120cm, 2012',
     },
     {
       images: [{ id: 670, foto: { w: 2121, h: 2779 } }],
-      caption: 'Grün, Öl/Leinwand, 130x100cm',
+      caption: 'Grün, Öl/Leinwand, 130x100cm, 2014',
     },
     {
       images: [{ id: 682, foto: { w: 2071, h: 2897 } }],
-      caption: 'Gelb, Öl/Leinwand, 120x100cm',
+      caption: 'Gelb, Öl/Leinwand, 120x100cm, 2014',
     },
     {
       images: [
@@ -107,12 +107,16 @@
       caption: 'gelb - blau, Öl/Leinwand, 40x40cm / 100x100cm',
     },
     {
+      images: [{ id: 126, foto: { w: 2727, h: 2197 } }],
+      caption: 'Erhabenheit, Öl/Leinwand, 120x150cm, 2015',
+    },
+    {
       images: [{ id: 496, foto: { w: 1754, h: 2148 } }],
-      caption: 'Hier (I - IV), Öl/Leinwand, 120x100cm',
+      caption: 'Hier (I - IV), Öl/Leinwand, 120x100cm, 2020',
     },
     {
       images: [{ id: 123, foto: { w: 1554, h: 2031 } }],
-      caption: 'Blau (Chatres II), Öl/Leinwand, 120x100cm',
+      caption: 'Blau (Chatres II), Öl/Leinwand, 130x100cm, 2015',
     },
   ]
 </script>
