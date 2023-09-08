@@ -14,7 +14,7 @@
               </div>
             </div>
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h1 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
                 Mein Weg zur Abstraktion
               </h1>
               <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -40,7 +40,7 @@
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
           <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
                 Natur I: Landschaft & Figur
               </h1>
               <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -67,7 +67,7 @@
               </div>
             </div> -->
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
                 Natur II: Abstraktion
               </h1>
               <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -94,7 +94,7 @@
               </div>
             </div> -->
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
                 Entgegenständlichung
               </h1>
               <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
@@ -157,22 +157,22 @@
     {
       id: 327,
       w: 100,
-      h: 120,
-      year: 2022,
-      title: 'Gelb',
+      h: 180,
+      year: 1996,
+      title: 'Eines Morgens lag der Frühling in der Luft',
       tech: 'Öl/Leinwand',
       foto: { w: 1000, h: 1204 },
-      caption: 'Gelb, Öl/Leinwand, 120x100cm, 2022',
+      caption: 'Eines Morgens lag der Frühling in der Luft, Öl/Leinwand, 180x100cm, 1996',
     },
     {
       id: 324,
       w: 100,
-      h: 120,
-      year: 2022,
-      title: 'Gelb',
+      h: 180,
+      year: 1991,
+      title: 'Kraft des Lebens I.',
       tech: 'Öl/Leinwand',
       foto: { w: 1000, h: 1204 },
-      caption: 'Gelb, Öl/Leinwand, 120x100cm, 2022',
+      caption: 'Kraft des Lebens I., Öl/Leinwand, 180x100cm, 1991',
     },
     {
       id: 461,
@@ -188,11 +188,11 @@
       id: 279,
       w: 100,
       h: 120,
-      year: 2022,
+      year: 1995,
       title: 'Gelb',
       tech: 'Öl/Leinwand',
       foto: { w: 1000, h: 1204 },
-      caption: 'Gelb, Öl/Leinwand, 120x100cm, 2022',
+      caption: 'Monument, Öl/Leinwand, 80x95cm, 1995',
     },
 
     {
@@ -209,11 +209,11 @@
       id: 462,
       w: 100,
       h: 120,
-      year: 2022,
+      year: 1993,
       title: 'Gelb',
       tech: 'Öl/Leinwand',
       foto: { w: 1000, h: 1204 },
-      caption: 'Gelb, Öl/Leinwand, 120x100cm, 2022',
+      caption: 'Lichtertanz, Öl/Leinwand, 140x100cm, 1993',
     },
   ]
 
@@ -276,7 +276,7 @@
       title: '',
       tech: 'Öl/Papier',
       foto: { w: 1000, h: 1204 },
-      caption: 'Öl/Papier, 26x21cm',
+      caption: 'Öl/Papier, 26x21cm, 2010',
     },
   ]
 </script>

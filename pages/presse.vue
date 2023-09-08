@@ -11,7 +11,8 @@
       <ul role="list" class="grid grid-cols-1 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
         <li>
           <h3 class="pl-2 text-xs font-light text-gray-500">
-            2022 | Ausstellung "Farben des Lebens" im C-Punkt Münsterforum Freiburg
+            <span class="text-sm text-gray-700">2022</span> | Ausstellung "Farben des Lebens" im C-Punkt Münsterforum
+            Freiburg
           </h3>
           <div
             class="group relative block w-full overflow-hidden rounded-lg bg-white focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
@@ -27,7 +28,8 @@
         <!-- class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100" -->
         <li>
           <h3 class="pl-2 text-xs font-light text-gray-500">
-            2016 | Ausstellung "Kunst Ort Kirche" in der St. Bartholomäus-Kirche Ortenberg
+            <span class="text-sm text-gray-700">2016</span> | Ausstellung "Kunst Ort Kirche" in der St.
+            Bartholomäus-Kirche Ortenberg
           </h3>
           <div
             class="group relative block w-full overflow-hidden rounded-lg bg-white focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
@@ -41,7 +43,9 @@
         </li>
 
         <li>
-          <h3 class="pl-2 text-xs font-light text-gray-500">1999 | Ausstellung im Museum im Ritterhaus Offenburg</h3>
+          <h3 class="pl-2 text-xs font-light text-gray-500">
+            <span class="text-sm text-gray-700">1999</span> | Ausstellung im Museum im Ritterhaus Offenburg
+          </h3>
           <div
             class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100"
           >

@@ -73,7 +73,7 @@
     },
     {
       images: [{ id: 707, w: 150, h: 40, year: 2022, title: 'Gelb', tech: 'Öl/Leinwand', foto: { w: 1953, h: 819 } }],
-      caption: 'BlauWeißRot, Öl/Leinwand, je 40x150cm, 2009',
+      caption: 'BlauWeißRot (dreiteilig), Öl/Leinwand, 40x150cm, 2009',
     },
     {
       images: [{ id: 637, w: 100, h: 120, foto: { w: 3161, h: 2054 } }],
@@ -104,7 +104,7 @@
         { id: 262, foto: { w: 2771, h: 2820 } },
         { id: 504, foto: { w: 1000, h: 1019 } },
       ],
-      caption: 'gelb - blau, Öl/Leinwand, 40x40cm / 100x100cm',
+      caption: 'gelb - blau, Öl/Leinwand, je 40x40cm, 2018',
     },
     {
       images: [{ id: 126, foto: { w: 2727, h: 2197 } }],
@@ -112,11 +112,11 @@
     },
     {
       images: [{ id: 496, foto: { w: 1754, h: 2148 } }],
-      caption: 'Hier (I - IV), Öl/Leinwand, 120x100cm, 2020',
+      caption: 'Hier III. (I - IV), Öl/Leinwand, 120x100cm, 2020',
     },
     {
       images: [{ id: 123, foto: { w: 1554, h: 2031 } }],
-      caption: 'Blau (Chatres II), Öl/Leinwand, 130x100cm, 2015',
+      caption: 'Blau (Chartres II), Öl/Leinwand, 130x100cm, 2015',
     },
   ]
 </script>

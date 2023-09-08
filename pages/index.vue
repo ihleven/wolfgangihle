@@ -94,13 +94,15 @@
         Monochrom gemalte Bilder als Vorstellungswelt. Und die Farben als ihre Sprache. ...
       </p>
 
-      <p v-else class="block p-8 text-left align-bottom text-sm font-light text-white">
+      <div v-else class="block p-8 text-left align-bottom text-sm font-light text-white">
         ... Sie leuchten oder reduzieren sich ins Nichts. Sie sind geworden aus künstlerischem Tun. Ohne Inhalt. Ohne
         Formgebendes. In der Logik eines Anwesendseins einer Farbe. In einer Farbe als reine Fläche oder aus eng
         beieinander liegenden Farbstufen zu einem Eins werdend. Die Antworten auf die Fragen nach dem Sinn eines solchen
         Bildes muss aus der Anschauung kommen. Aus einem reflektierenden Sehen. Ein Eintauchen in eine Vorstellungswelt.
         In einen freien Gedankenraum.
-      </p>
+
+        <p class="pt-2 text-xs">(Wolfgang Ihle)</p>
+      </div>
       <button class="m-1 self-end bg-transparent px-2 py-1 text-sm font-light text-white" @click="open = !open">
         {{ open ? '[ schließen ]' : '[ alles anzeigen ]' }}
       </button>

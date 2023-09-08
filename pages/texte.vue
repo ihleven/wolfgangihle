@@ -166,7 +166,7 @@
           Gedankenwelt in meine Vorstellungen eintauchen zu lassen, möchte ich mich herzlich bedanken. Der Dank gilt dem
           kleinen Moment einer Begegnung zweier irdischer Gedankenschübe.
         </p>
-        <p class="mt-4">Wolfgang Ihle</p>
+        <p class="mt-4">Wolfgang Ihle, 9/2023</p>
       </section>
     </main>
   </div>
