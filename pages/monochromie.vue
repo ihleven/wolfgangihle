@@ -1,5 +1,5 @@
 <template>
-  <main :id="gallery" ref="gallery" class="mx-auto w-screen max-w-screen-md overflow-hidden pb-32">
+  <main :id="gallery" ref="gallery" class="mx-auto mt-12 w-screen max-w-screen-md overflow-hidden pb-32 sm:mt-16">
     <!-- <figure class="pb-4 text-sm font-light text-gray-600">
       <img src="/monochrom/665.jpeg" alt="665" class="aspect-[100/120]" />
       <caption>

@@ -2,12 +2,12 @@
   <main class="grid w-screen grid-cols-4 grid-rows-[repeat(18,_minmax(0,_1fr))] gap-1 bg-gray-50 p-1">
     <!-- bg-[url('/atelier.jpg')] bg-contain bg-no-repeat -->
     <header
-      class="col-span-4 col-start-1 row-span-1 row-start-1 flex h-16 items-center justify-between border-0 border-black bg-white bg-[url('/monochromie-gelb.jpg')] bg-cover p-2 sm:p-4 md:p-6 lg:p-8"
+      class="col-span-4 col-start-1 row-span-1 row-start-1 flex items-center justify-between border-0 border-black bg-white bg-[url('/monochromie-gelb.jpg')] bg-cover p-2 sm:p-4 md:p-6 lg:p-8"
     >
       <!-- <div class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"> -->
-      <NuxtLink class="relative block px-3 py-2 transition hover:underline" to="/">
-        <span>wolfgang<strong>ihle</strong></span>
-      </NuxtLink>
+      <div class="relative block px-3 py-2 transition hover:underline" to="/">
+        <h1>wolfgang<strong>ihle</strong></h1>
+      </div>
       <!-- </div> -->
       <Navigation />
     </header>
@@ -19,10 +19,10 @@
       to="/monochromie"
       class="col-span-2 col-start-1 row-span-2 row-start-2 flex items-end bg-[url('/monochromie.jpg')] bg-cover bg-no-repeat"
     >
-      <h4 class="hover:text-outline block p-8 text-lg font-extralight text-white hover:font-normal">
+      <h2 class="hover:text-outline block p-8 text-lg font-extralight text-white hover:font-normal">
         <div class="text-sm font-light">Mein Weg zur</div>
         <div class="font-extrabold">Monochromie</div>
-      </h4>
+      </h2>
     </nuxt-link>
 
     <nuxt-link

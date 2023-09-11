@@ -128,7 +128,7 @@
       year: 1981,
       title: 'Politikertreff',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 3929, h: 2287 },
       caption: 'Politikertreff, Öl/Leinwand, 70x130cm, 1981',
     },
     {
@@ -138,7 +138,7 @@
       year: 1977,
       title: 'Bühlweg-Kapelle Ortenberg',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 1585, h: 1937 },
       caption: 'Bühlweg-Kapelle Ortenberg, Öl/Leinwand, 50x40cm, 1977',
     },
     {
@@ -148,7 +148,7 @@
       year: 1983,
       title: 'Rebhühner',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2754, h: 3211 },
       caption: 'Rebhühner, Öl/Leinwand, 100x85, 1983',
     },
   ]
@@ -161,7 +161,7 @@
       year: 1996,
       title: 'Eines Morgens lag der Frühling in der Luft',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 1874, h: 3454 },
       caption: 'Eines Morgens lag der Frühling in der Luft, Öl/Leinwand, 180x100cm, 1996',
     },
     {
@@ -171,7 +171,7 @@
       year: 1991,
       title: 'Kraft des Lebens I.',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 1744, h: 3083 },
       caption: 'Kraft des Lebens I., Öl/Leinwand, 180x100cm, 1991',
     },
     {
@@ -181,7 +181,7 @@
       year: 1997,
       title: 'Himmel und Erde',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2395, h: 3116 },
       caption: 'Himmel und Erde, Öl/Leinwand, 130x100cm, 1997',
     },
     {
@@ -191,7 +191,7 @@
       year: 1995,
       title: 'Gelb',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 3023, h: 3222 },
       caption: 'Monument, Öl/Leinwand, 80x95cm, 1995',
     },
 
@@ -202,7 +202,7 @@
       year: 2002,
       title: 'o.T. (zweiteilig)',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2739, h: 2558 },
       caption: 'o.T. (zweiteilig), Öl/Leinwand, 180x200cm, 2002',
     },
     {
@@ -212,7 +212,7 @@
       year: 1993,
       title: 'Gelb',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2301, h: 3213 },
       caption: 'Lichtertanz, Öl/Leinwand, 140x100cm, 1993',
     },
   ]
@@ -225,7 +225,7 @@
       year: 2002,
       title: '',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 3338, h: 2150 },
       caption: 'Öl/Leinwand, 100x160cm, 2002',
     },
     {
@@ -235,7 +235,7 @@
       year: 2006,
       title: '',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2817, h: 1724 },
       caption: 'Öl/Leinwand, 100x180cm, 2006',
     },
     {
@@ -245,7 +245,7 @@
       year: 2008,
       title: '',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2415, h: 3092 },
       caption: 'Öl/Leinwand, 130x100cm, 2008',
     },
     {
@@ -255,7 +255,7 @@
       year: 2005,
       title: '',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2506, h: 1000 },
       caption: 'Feuerland (zweiteilig), Öl/Leinwand, 100x240cm, 2005',
     },
     {
@@ -265,7 +265,7 @@
       year: 2008,
       title: '',
       tech: 'Öl/Leinwand',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 2936, h: 2578 },
       caption: 'Öl/Leinwand, 120x140cm, 2008',
     },
     {
@@ -275,7 +275,7 @@
       year: 0,
       title: '',
       tech: 'Öl/Papier',
-      foto: { w: 1000, h: 1204 },
+      foto: { w: 3024, h: 4032 },
       caption: 'Öl/Papier, 26x21cm, 2010',
     },
   ]

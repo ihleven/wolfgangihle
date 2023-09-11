@@ -16,4 +16,10 @@ export default defineNuxtConfig({
   vite: {
     optimizeDeps: { exclude: ['fsevents'] }, // wegen build-Fehler
   },
+
+  app: {
+    head: {
+      link: [{ rel: 'icon', type: 'image/png', href: '/icon.png' }],
+    },
+  },
 })
