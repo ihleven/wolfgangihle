@@ -29,9 +29,9 @@ export default defineNuxtConfig({
   },
 
   pwa: {
-    meta: {
-      // nativeUI: true,
-    },
+    // meta: {
+    //   // nativeUI: true,
+    // },
     manifest: {
       lang: 'de',
       name: 'Wolfgang Ihle',
@@ -40,6 +40,7 @@ export default defineNuxtConfig({
       // display: 'standalone',
       icons: [{ src: '/icon.png', sizes: '512x512', type: 'image/png' }],
     },
-    // workbox: false,
+    // workbox: { selfDestroying: true },
+    selfDestroying: true,
   },
 })
