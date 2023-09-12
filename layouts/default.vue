@@ -31,9 +31,9 @@
       <!-- </div> -->
       <Navigation />
     </header>
-    <main class="relative mx-auto max-w-screen-lg">
-      <slot />
-    </main>
+    <!-- <main class="relative mx-auto max-w-screen-lg"> -->
+    <slot />
+    <!-- </main> -->
 
     <footer></footer>
   </div>

@@ -41,6 +41,7 @@
   onMounted(() => {
     if (!lightbox.value) {
       lightbox.value = new PhotoSwipeLightbox({
+        bgOpacity: 0.95,
         gallery: '#' + props.gallery,
         children: 'a',
         pswpModule: () => import('photoswipe'),

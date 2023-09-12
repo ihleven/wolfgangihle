@@ -8,10 +8,15 @@ export default defineNuxtConfig({
     accessToken: process.env.STORYBLOK_TOKEN,
   },
 
-  // tailwindcss: {
-  //   // configPath: '@/tailwind.config.js',
-  //   cssPath: '@/tailwind.css',
-  // },
+  tailwindcss: {
+    cssPath: '@/tailwind.css', // default: '~/assets/css/tailwind.css',
+    // configPath: '@/tailwind.config.js', // default: 'tailwind.config',
+    // exposeConfig: false,
+    // exposeLevel: 2,
+    // config: {},
+    // injectPosition: 'first',
+    // viewer: true,
+  },
 
   vite: {
     optimizeDeps: { exclude: ['fsevents'] }, // wegen build-Fehler

@@ -7,7 +7,7 @@
       </caption>
     </figure> aspect-h-7 aspect-w-10-->
 
-    <section v-for="(b, i) in bilder" :key="i" class="w-screen pb-4">
+    <section v-for="(b, i) in bilder" :key="i" class="w-full pb-4">
       <figure class="flex w-full space-x-2">
         <a
           v-for="img in b.images"
