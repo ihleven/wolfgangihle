@@ -40,7 +40,7 @@ export default defineNuxtConfig({
       description: 'Wolfgang Ihles Werk im Web',
       // display: 'standalone',
       icons: [{ src: '/icon.png', sizes: '512x512', type: 'image/png' }],
-      display: 'browser',
+      display: 'standalone',
       start_url: '/',
     },
     // workbox: { selfDestroying: true },
