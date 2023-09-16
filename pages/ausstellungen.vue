@@ -1,5 +1,5 @@
 <template>
-  <main class="pb-16">
+  <main class="relative pb-16">
     <!-- <div class="sticky top-24">
       <h1 class="origin-bottom-right -rotate-90 bg-transparent p-2 text-right text-xl font-bold md:p-5">
         Ausstellungen
@@ -14,7 +14,7 @@
         <template v-for="[year, exhibitions] in nachJahren" :key="year">
           <dt class="border-b border-black px-0 pb-1 pt-4 md:pt-6">{{ year }}</dt>
 
-          <dd v-for="a in exhibitions" :key="a.id" class="mt-1.5 bg-white md:mt-2">
+          <dd v-for="a in exhibitions" :key="a.id" class="scrollspy mt-1.5 bg-white md:mt-2" :data-ex="year">
             <!-- <div class="flex w-12 self-start px-2">
                     <span v-if="i === 0">{{ a.jahr }}</span>
                 </div> -->
@@ -50,7 +50,7 @@
         <template v-for="[year, exhibitions] in betNachJahren" :key="year">
           <dt class="border-b border-black px-0 pb-1 pt-4 md:pt-6">{{ year }}</dt>
 
-          <dd v-for="a in exhibitions" :key="a.id" class="mt-1.5 bg-white md:mt-2">
+          <dd v-for="a in exhibitions" :key="a.id" class="scrollspy mt-1.5 bg-white md:mt-2" :data-ex="2000">
             <!-- <div class="flex w-12 self-start px-2">
                     <span v-if="i === 0">{{ a.jahr }}</span>
                 </div> -->
@@ -115,17 +115,54 @@
         <small class="pl-4 text-xs font-normal text-gray-400">(bestehen nicht mehr)</small>
       </dl>
     </div>
+    <button
+      class="fixed bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 shadow-lg"
+      :class="visibility ? 'block' : 'hidden'"
+      @click="scrollTop"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-chevrons-up h-8 w-8"
+      >
+        <!-- <polyline points="17 11 12 6 7 11"></polyline> -->
+        <!-- <polyline points="17 18 12 13 7 18"></polyline> -->
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
   </main>
 </template>
 
 <script setup>
-  // const { data: ausstellungen } = await useFetch('/api/ausstellungen?type=EINZEL', {
-  //   key: 'einzelausstellungen',
-  //   headers: {
-  //     Cookie:
-  //       'token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODg4MDk3OTIsIlVzZXJuYW1lIjoid29sZmdhbmcifQ._IoSIHrBkHpQXRNnyspcRVnA2eF8jPJjns8bZjQsKNA',
-  //   },
-  // })
+  function scrollTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+  const visibility = ref(false)
+
+  onMounted(() => {
+    const observer = new IntersectionObserver(
+      entries => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            visibility.value = parseInt(entry.target.dataset.ex) < 2008
+          }
+        }
+      },
+      {
+        rootMargin: '-50% 0px',
+      }
+    )
+    const target = document.querySelectorAll('.scrollspy')
+
+    for (let i = 0; i < target.length; i++) observer.observe(target[i])
+  })
+
   const ausstellungen = [
     {
       id: 126,
