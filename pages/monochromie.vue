@@ -8,7 +8,7 @@
     </figure> aspect-h-7 aspect-w-10-->
 
     <section v-for="(b, i) in bilder" :key="i" class="w-full pb-4">
-      <figure class="flex w-full space-x-2">
+      <figure class="flex w-full space-x-2" :data-scroll-top="i >= 1">
         <a
           v-for="img in b.images"
           :key="img.id"
@@ -29,6 +29,8 @@
 
     <!-- <hr class="h-64" />
     <BilderGallery :bilder="bilder" gallery="mono" /> -->
+
+    <ScrollTopButton />
   </main>
 </template>
 
@@ -36,10 +38,8 @@
   import PhotoSwipeLightbox from 'photoswipe/lightbox'
   import 'photoswipe/style.css'
 
-  // const props = defineProps(['bilder', 'gallery'])
   const gallery = ref(null)
   const lightbox = ref(null)
-  //   const files = computed(() => props.images.filter(i => i.image))
 
   onMounted(() => {
     if (!lightbox.value) {

@@ -3,14 +3,9 @@
     class="h-screen overflow-y-auto bg-[url('assets/unsplash/bernd-klutsch-nE2HV5AUXFo-unsplash.jpg')] bg-cover bg-no-repeat"
   >
     <section class="bg-black/25 pb-4 pt-4 backdrop-blur-sm backdrop-saturate-50">
-      <article
-        v-for="katalog in kataloge"
-        :key="katalog.code"
-        class="m-4 flex items-stretch gap-4"
-        :class="layout === 'odd' ? 'flex-row-reverse' : 'flex-row'"
-      >
+      <article v-for="katalog in kataloge" :key="katalog.code" class="m-4 flex items-stretch gap-4">
         <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2">
-          <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" />
+          <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" :data-scroll-top="false" />
         </a>
         <label class="flex flex-1 basis-1/2 flex-col justify-start bg-black/20 px-2 text-left text-white">
           <h4 class="text-outline py-1 text-lg font-black">{{ katalog.year }}</h4>
@@ -21,13 +16,8 @@
     </section>
 
     <section class="bg-white/25 py-4 backdrop-blur-sm backdrop-saturate-50">
-      <article
-        v-for="katalog in kataloge2"
-        :key="katalog.code"
-        class="m-4 flex items-stretch gap-4"
-        :class="layout === 'odd' ? 'flex-row-reverse' : 'flex-row'"
-      >
-        <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2">
+      <article v-for="katalog in kataloge2" :key="katalog.code" class="m-4 flex items-stretch gap-4">
+        <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2" :data-scroll-top="true">
           <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" />
         </a>
         <label class="flex flex-1 basis-1/2 flex-col justify-start bg-black/20 px-2 text-left text-white">
@@ -37,6 +27,8 @@
         </label>
       </article>
     </section>
+
+    <ScrollTopButton />
   </main>
 </template>
 

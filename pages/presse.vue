@@ -9,7 +9,7 @@
       </header>
 
       <ul role="list" class="grid grid-cols-1 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
-        <li>
+        <li :data-scroll-top="false">
           <h3 class="pl-2 text-xs font-light text-gray-500">
             <span class="text-sm text-gray-700">2022</span> | Ausstellung "Farben des Lebens" im C-Punkt Münsterforum
             Freiburg
@@ -26,7 +26,7 @@
         </li>
 
         <!-- class="aspect-h-7 aspect-w-10 group relative block w-full overflow-hidden rounded-lg bg-gray-100 focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100" -->
-        <li>
+        <li :data-scroll-top="true">
           <h3 class="pl-2 text-xs font-light text-gray-500">
             <span class="text-sm text-gray-700">2016</span> | Ausstellung "Kunst Ort Kirche" in der St.
             Bartholomäus-Kirche Ortenberg
@@ -42,7 +42,7 @@
           </div>
         </li>
 
-        <li>
+        <li :data-scroll-top="true">
           <h3 class="pl-2 text-xs font-light text-gray-500">
             <span class="text-sm text-gray-700">1999</span> | Ausstellung im Museum im Ritterhaus Offenburg
           </h3>
@@ -58,49 +58,8 @@
         </li>
       </ul>
     </section>
+
+    <ScrollTopButton />
   </main>
 </template>
-<script setup>
-  const presse = [
-    {
-      id: 329,
-      jahr: 2014,
-      titel: 'nur Farbe und Fläche',
-      gattung: 'M',
-      serie_id: null,
-      serie: null,
-      serie_nr: 0,
-      technik: 'Öl',
-      traeger: 'Leinwand',
-      hoehe: 65,
-      breite: 90,
-      tiefe: 0,
-      flaeche: 0,
-      anmerkungen: '',
-      kommentar: '',
-      phase: 'M',
-      fotos: null,
-      foto_id: 501,
-      foto: {
-        id: 501,
-        nr: 0,
-        name: '36A995BD-0EB9-473F-BE97-67C541E61B75.jpeg',
-        size: 517908,
-        uploaded: '2021-03-27T13:42:21.504649Z',
-        path: 'bilder/329/36A995BD-0EB9-473F-BE97-67C541E61B75.jpeg',
-        format: 'image/jpeg',
-        width: 2962,
-        height: 2155,
-        taken: '0001-01-01T00:00:00Z',
-        caption: 'b1585735062.783496',
-        kommentar: '',
-        labels: null,
-        Serie: null,
-        status: '',
-      },
-      teile: 0,
-      modified: '2021-03-27T13:42:21.200566Z',
-      status: '',
-    },
-  ]
-</script>
+<script setup></script>

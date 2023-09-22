@@ -27,21 +27,25 @@
     </section> -->
 
     <section class="mx-auto max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
-      <h1 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+      <h1
+        class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
+        :data-scroll-top="false"
+      >
         Kleines gelbes Mauerstück
       </h1>
-      <p class="mt-2 text-sm text-zinc-500">von Wolfang Ihle, 2021</p>
-      <p class="mt-4 text-base text-zinc-600">
+      <p class="mt-2 text-sm text-zinc-500" :data-scroll-top="false">von Wolfang Ihle, 2021</p>
+      <p class="mt-4 text-base text-zinc-600" :data-scroll-top="false">
         Die Anregung zu diesem monochromen Bild entstammt der Lektüre von Marcel Proust‘s 5. Band „Die Gefangene“ aus
         seinem Gesamtwerk „Auf der Suche nach der verlorenen Zeit“.
       </p>
       <figure
+        :data-scroll-top="false"
         class="group mt-4 w-full focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
       >
         <img :src="`/IMG_0519.jpg`" alt="" class="pointer-events-none object-cover group-hover:opacity-75" />
         <figcaption class="pt-1 text-xs text-gray-600">Öl auf Leinwand, 100x80 cm, 2015</figcaption>
       </figure>
-      <p class="mt-4">
+      <p class="mt-4" :data-scroll-top="true">
         Der ältergewordene und kranke Schriftsteller Bergotte ist noch einmal ins Museum gegangen, um ein Bild vom
         verehrten Jan Vermeer, die „Ansicht von Delft“, sehen zu können. Er findet dieses Mal beim Intensiven Schauen
         ein kleines gelbes Mauerstück, an das er sich nicht mehr erinnern kann. „So hätte ich schreiben sollen“, sagt er
@@ -166,6 +170,9 @@
       </p>
       <p class="mt-4">Wolfgang Ihle, 9/2023</p>
     </section>
+
+    <ScrollTopButton />
   </main>
 </template>
+
 <script setup></script>

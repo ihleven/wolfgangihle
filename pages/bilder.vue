@@ -106,10 +106,56 @@
         <BilderGallery :bilder="entg" gallery="ent" class="mt-8" />
       </div>
     </div>
+
+    <button
+      class="fixed bottom-4 right-4 flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 shadow-lg"
+      :class="visibility ? 'block' : 'block'"
+      @click="scrollTop"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-chevrons-up h-8 w-8"
+      >
+        <!-- <polyline points="17 11 12 6 7 11"></polyline> -->
+        <!-- <polyline points="17 18 12 13 7 18"></polyline> -->
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
   </main>
 </template>
 
 <script setup>
+  const visibility = ref(false)
+  function scrollTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
+  onMounted(() => {
+    // scroll top button
+    const observer = new IntersectionObserver(
+      entries => {
+        for (const entry of entries) {
+          if (entry.isIntersecting) {
+            visibility.value = parseBool(entry.target.dataset.scrollTop)
+            console.log('n', parseBool(entry.target.dataset.scrollTop))
+          }
+        }
+      },
+      {
+        rootMargin: '-50% 0px',
+      }
+    )
+    const target = document.querySelectorAll('[data-name="scroll-top"]')
+    console.log('target', target)
+    for (let i = 0; i < target.length; i++) observer.observe(target[i])
+  })
+
   const natur1 = [
     {
       id: 341,
