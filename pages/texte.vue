@@ -87,7 +87,7 @@
     <!-- </main> -->
     <!-- <hr class="mx-auto block h-[2px] w-32 rounded bg-gray-300 pt-4 text-center" /> -->
     <!-- <main class="pb-16 pt-16"> -->
-    <section class="mx-auto mt-16 max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
+    <section class="mx-auto mt-36 max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
       <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
         Monochrome Malerei VIII
       </h1>
@@ -95,7 +95,7 @@
       <p class="mt-4 text-base text-zinc-600">
         Unser Denken ist ein Sehen des Gedachten. Der um uns sich befindende Raum zeigt die vorhandenen Dinge, lässt
         Geräusche hören und Bewegungen und Ausdrücke wahrnehmen. Wie wir sie wahrnehmen, ist immer eine persönliche
-        Sache und wird von jedem(r) selbst im Laufe des Lebens gestaltet.
+        Sache und wird von jedem selbst im Laufe des Lebens gestaltet.
       </p>
       <!-- <figure
         class="group mt-4 w-full focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8"
@@ -140,7 +140,7 @@
       </header>
     </section> -->
 
-    <section class="mx-auto mt-32 max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
+    <section class="mx-auto mt-36 max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
       <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
         Ein humorvoller Blick
       </h1>

@@ -119,7 +119,7 @@
       title: '',
       tech: 'Öl/Leinwand',
       foto: { w: 1000, h: 1204 },
-      caption: 'Öl/Leinwand, 120x100cm, 1984',
+      caption: 'Öl/Leinwand, 120x100cm',
     },
     {
       id: 10,
@@ -129,7 +129,7 @@
       title: 'Politikertreff',
       tech: 'Öl/Leinwand',
       foto: { w: 3929, h: 2287 },
-      caption: 'Politikertreff, Öl/Leinwand, 70x130cm, 1981',
+      caption: 'Politikertreff, Öl/Leinwand, 70x130cm',
     },
     {
       id: 581,
@@ -139,7 +139,7 @@
       title: 'Bühlweg-Kapelle Ortenberg',
       tech: 'Öl/Leinwand',
       foto: { w: 1585, h: 1937 },
-      caption: 'Bühlweg-Kapelle Ortenberg, Öl/Leinwand, 50x40cm, 1977',
+      caption: 'Bühlweg-Kapelle Ortenberg, Öl/Leinwand, 50x40cm',
     },
     {
       id: 621,
@@ -149,7 +149,7 @@
       title: 'Rebhühner',
       tech: 'Öl/Leinwand',
       foto: { w: 2754, h: 3211 },
-      caption: 'Rebhühner, Öl/Leinwand, 100x85, 1983',
+      caption: 'Rebhühner, Öl/Leinwand, 100x85cm',
     },
   ]
 
@@ -162,7 +162,7 @@
       title: 'Eines Morgens lag der Frühling in der Luft',
       tech: 'Öl/Leinwand',
       foto: { w: 1874, h: 3454 },
-      caption: 'Eines Morgens lag der Frühling in der Luft, Öl/Leinwand, 180x100cm, 1996',
+      caption: 'Eines Morgens lag der Frühling in der Luft, Öl/Leinwand, 180x100cm',
     },
     {
       id: 324,
@@ -172,7 +172,7 @@
       title: 'Kraft des Lebens I.',
       tech: 'Öl/Leinwand',
       foto: { w: 1744, h: 3083 },
-      caption: 'Kraft des Lebens I., Öl/Leinwand, 180x100cm, 1991',
+      caption: 'Kraft des Lebens I., Öl/Leinwand, 180x100cm',
     },
     {
       id: 461,
@@ -182,7 +182,7 @@
       title: 'Himmel und Erde',
       tech: 'Öl/Leinwand',
       foto: { w: 2395, h: 3116 },
-      caption: 'Himmel und Erde, Öl/Leinwand, 130x100cm, 1997',
+      caption: 'Himmel und Erde, Öl/Leinwand, 130x100cm',
     },
     {
       id: 279,
@@ -192,7 +192,7 @@
       title: 'Gelb',
       tech: 'Öl/Leinwand',
       foto: { w: 3023, h: 3222 },
-      caption: 'Monument, Öl/Leinwand, 80x95cm, 1995',
+      caption: 'Monument, Öl/Leinwand, 80x95cm',
     },
 
     {
@@ -203,7 +203,7 @@
       title: 'o.T. (zweiteilig)',
       tech: 'Öl/Leinwand',
       foto: { w: 2739, h: 2558 },
-      caption: 'o.T. (zweiteilig), Öl/Leinwand, 180x200cm, 2002',
+      caption: 'o.T. (zweiteilig), Öl/Leinwand, 180x200cm',
     },
     {
       id: 462,
@@ -213,7 +213,7 @@
       title: 'Gelb',
       tech: 'Öl/Leinwand',
       foto: { w: 2301, h: 3213 },
-      caption: 'Lichtertanz, Öl/Leinwand, 140x100cm, 1993',
+      caption: 'Lichtertanz, Öl/Leinwand, 140x100cm',
     },
   ]
 
@@ -226,7 +226,7 @@
       title: '',
       tech: 'Öl/Leinwand',
       foto: { w: 3338, h: 2150 },
-      caption: 'Öl/Leinwand, 100x160cm, 2002',
+      caption: 'o.T., Öl/Leinwand, 100x160cm',
     },
     {
       id: 409,
@@ -236,7 +236,7 @@
       title: '',
       tech: 'Öl/Leinwand',
       foto: { w: 2817, h: 1724 },
-      caption: 'Öl/Leinwand, 100x180cm, 2006',
+      caption: 'o.T., Öl/Leinwand, 100x180cm',
     },
     {
       id: 276,
@@ -246,7 +246,7 @@
       title: '',
       tech: 'Öl/Leinwand',
       foto: { w: 2415, h: 3092 },
-      caption: 'Öl/Leinwand, 130x100cm, 2008',
+      caption: 'o.T., Öl/Leinwand, 130x100cm',
     },
     {
       id: 381,
@@ -256,7 +256,7 @@
       title: '',
       tech: 'Öl/Leinwand',
       foto: { w: 2506, h: 1000 },
-      caption: 'Feuerland (zweiteilig), Öl/Leinwand, 100x240cm, 2005',
+      caption: 'Feuerland (zweiteilig), Öl/Leinwand, 100x240cm',
     },
     {
       id: 463,
@@ -266,17 +266,17 @@
       title: '',
       tech: 'Öl/Leinwand',
       foto: { w: 2936, h: 2578 },
-      caption: 'Öl/Leinwand, 120x140cm, 2008',
+      caption: 'o.T., Öl/Leinwand, 120x140cm',
     },
     {
       id: 'IMG_1511',
       w: 21,
       h: 26,
-      year: 0,
+      year: 2010,
       title: '',
       tech: 'Öl/Papier',
       foto: { w: 3024, h: 4032 },
-      caption: 'Öl/Papier, 26x21cm, 2010',
+      caption: 'o.T., Öl/Papier, 26x21cm',
     },
   ]
 </script>

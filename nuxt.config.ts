@@ -39,7 +39,7 @@ export default defineNuxtConfig({
       short_name: 'wolfgangihle',
       description: 'Wolfgang Ihles Werk im Web',
       // display: 'standalone',
-      icons: [{ src: '/icon.png', sizes: '512x512', type: 'image/png' }],
+      icons: [{ src: '/icon.jpg', sizes: '512x512', type: 'image/png' }],
       display: 'standalone',
       start_url: '/',
     },

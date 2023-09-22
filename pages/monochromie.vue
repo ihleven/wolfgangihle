@@ -112,7 +112,7 @@
     },
     {
       images: [{ id: 496, foto: { w: 1754, h: 2148 } }],
-      caption: 'Hier III. (I - IV), Öl/Leinwand, 120x100cm, 2020',
+      caption: 'Hier IV. (I - IV), Öl/Leinwand, 120x100cm, 2020',
     },
     {
       images: [{ id: 123, foto: { w: 1554, h: 2031 } }],
