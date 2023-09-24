@@ -14,16 +14,16 @@
                 <img
                   src="/IMG_4458.jpg"
                   alt="Wolfgang"
-                  class="aspect-square w-64 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 lg:w-96"
+                  class="aspect-square w-64 rounded-2xl bg-zinc-100 object-cover lg:w-96"
                 />
                 <!-- rotate-3  -->
               </div>
             </div>
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+              <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">
                 Wolfgang Ihle. Ein Leben für die Kunst.
               </h1>
-              <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <div class="mt-6 space-y-7 text-base text-zinc-600">
                 <p>
                   Ein Leben, das der Kunst gewidmet ist. Auf einem Weg, der nicht in der Normalität zum Ziel führen
                   konnte. Mit einem Denken und Handeln parallel zur gegebenen Wirklichkeit. Ihn gehen zu können

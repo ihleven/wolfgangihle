@@ -9,15 +9,13 @@
                 <img
                   src="~/assets/portrait.jpg"
                   alt="Wolfgang"
-                  class="aspect-square w-64 rotate-3 rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800 lg:w-96"
+                  class="aspect-square w-64 rotate-3 rounded-2xl bg-zinc-100 object-cover lg:w-96"
                 />
               </div>
             </div>
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-2xl">
-                Mein Weg zur Abstraktion
-              </h1>
-              <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <h1 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-2xl">Mein Weg zur Abstraktion</h1>
+              <div class="mt-6 space-y-7 text-base text-zinc-600">
                 <p>
                   Mit einem kleinen Überblick über vorherige Stufen meiner Malerei möchte ich meinen malerischen Weg
                   verständlich machen. Es sind nur die Abdrücke großer Sprünge meiner Entwicklung über vier Jahrzehnte.
@@ -40,10 +38,8 @@
         <div class="mx-auto max-w-2xl lg:max-w-5xl">
           <div class="grid grid-cols-1 gap-y-16 lg:grid-cols-2 lg:grid-rows-[auto_1fr] lg:gap-y-12">
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-                Natur I: Landschaft & Figur
-              </h1>
-              <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <h1 class="text-xl font-bold tracking-tight text-zinc-800 sm:text-xl">Natur I: Landschaft & Figur</h1>
+              <div class="mt-6 space-y-7 text-base text-zinc-600">
                 <!-- <p>Lorem ipsum</p> -->
               </div>
             </div>
@@ -67,10 +63,8 @@
               </div>
             </div> -->
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-                Natur II: Abstraktion
-              </h1>
-              <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <h1 class="text-xl font-bold tracking-tight text-zinc-800 sm:text-xl">Natur II: Abstraktion</h1>
+              <div class="mt-6 space-y-7 text-base text-zinc-600">
                 <!-- <p>Lorem ipsum</p> -->
               </div>
             </div>
@@ -94,10 +88,8 @@
               </div>
             </div> -->
             <div class="lg:order-first lg:row-span-2">
-              <h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-                Entgegenständlichung
-              </h1>
-              <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
+              <h1 class="text-xl font-bold tracking-tight text-zinc-800 sm:text-xl">Entgegenständlichung</h1>
+              <div class="mt-6 space-y-7 text-base text-zinc-600">
                 <!-- <p>Lorem ipsum</p> -->
               </div>
             </div>

@@ -2,13 +2,13 @@
   <nav class="pointer-events-auto hidden w-auto backdrop-blur-none md:block">
     <!--   -->
     <ul
-      class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10"
+      class="flex rounded-full bg-white/90 px-3 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur"
     >
       <li v-for="(href, label) in nav" :key="label">
-        <NuxtLink class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400" :to="href">
+        <NuxtLink class="relative block px-3 py-2 transition hover:text-teal-500" :to="href">
           {{ label }}
           <span
-            class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"
+            class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0"
           />
         </NuxtLink>
       </li>
@@ -57,7 +57,7 @@
           <NuxtLink class="font-heading text-3xl leading-relaxed text-white" :to="href">
             {{ label }}
             <span
-              class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0 dark:from-teal-400/0 dark:via-teal-400/40 dark:to-teal-400/0"
+              class="absolute inset-x-1 -bottom-px h-px bg-gradient-to-r from-teal-500/0 via-teal-500/40 to-teal-500/0"
             />
           </NuxtLink>
         </nav>
@@ -65,7 +65,7 @@
     </PopoverPanel>
 
     <PopoverButton
-      class="z-100 focus:none group flex items-center rounded-full bg-white/90 px-2 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
+      class="z-100 focus:none group flex items-center rounded-full bg-white/90 px-2 py-2 text-sm font-medium text-zinc-800 shadow-lg shadow-zinc-800/5 ring-1 ring-zinc-900/5 backdrop-blur"
     >
       <!-- <ChevronDownIcon className="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400" /> -->
       <svg
@@ -86,7 +86,7 @@
         viewBox="0 0 24 24"
         stroke-width="2"
         stroke="currentColor"
-        class="h-6 w-6 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400"
+        class="h-6 w-6 stroke-zinc-500 group-hover:stroke-zinc-700"
       >
         <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5M12 17.25h8.25" />
       </svg>

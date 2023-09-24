@@ -2,7 +2,7 @@
   <main>
     <section class="mx-auto max-w-screen-md sm:px-8">
       <header class="max-w-2xl pb-4 pt-8 text-center">
-        <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Aus der Presse</h1>
+        <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl">Aus der Presse</h1>
         <!-- <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
           Lorem ipsum dolor sit qua retro sequoidnt utset quitastet pangluest malunt.
         </p> -->

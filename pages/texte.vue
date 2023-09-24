@@ -27,10 +27,7 @@
     </section> -->
 
     <section class="mx-auto max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
-      <h1
-        class="text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl"
-        :data-scroll-top="false"
-      >
+      <h1 class="text-2xl font-bold tracking-tight text-zinc-800 sm:text-5xl" :data-scroll-top="false">
         Kleines gelbes Mauerstück
       </h1>
       <p class="mt-2 text-sm text-zinc-500" :data-scroll-top="false">von Wolfang Ihle, 2021</p>
@@ -92,9 +89,7 @@
     <!-- <hr class="mx-auto block h-[2px] w-32 rounded bg-gray-300 pt-4 text-center" /> -->
     <!-- <main class="pb-16 pt-16"> -->
     <section class="mx-auto mt-36 max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
-      <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-        Monochrome Malerei VIII
-      </h1>
+      <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 sm:text-5xl">Monochrome Malerei VIII</h1>
       <p class="mt-2 text-sm text-zinc-500">von Wolfang Ihle, März 2022</p>
       <p class="mt-4 text-base text-zinc-600">
         Unser Denken ist ein Sehen des Gedachten. Der um uns sich befindende Raum zeigt die vorhandenen Dinge, lässt
@@ -145,9 +140,7 @@
     </section> -->
 
     <section class="mx-auto mt-36 max-w-2xl bg-white px-4 text-base text-zinc-600 sm:px-8 lg:max-w-5xl">
-      <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-        Ein humorvoller Blick
-      </h1>
+      <h1 class="text-left text-2xl font-bold tracking-tight text-zinc-800 sm:text-5xl">Ein humorvoller Blick</h1>
       <!-- <p class="mt-2 text-sm text-zinc-500">von Wolfang Ihle, März 2022</p> -->
       <p class="mt-4 text-base text-zinc-600">
         aus einer kleinen Vergangenheit über den Jetztzustand in eine mögliche und vielleicht sogar gewünschte Zukunft:
