@@ -4,9 +4,9 @@
   >
     <section class="bg-black/25 pb-4 pt-4 backdrop-blur-sm backdrop-saturate-50">
       <article v-for="katalog in kataloge" :key="katalog.code" class="m-4 flex items-stretch gap-4">
-        <div :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2" @click="openInBrowser(katalog)">
+        <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2">
           <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" :data-scroll-top="false" />
-        </div>
+        </a>
         <label class="flex flex-1 basis-1/2 flex-col justify-start bg-black/20 px-2 text-left text-white">
           <h4 class="text-outline py-1 text-lg font-black">{{ katalog.year }}</h4>
           <!-- <h3 class="text-lg">{{ katalog.name }}</h3> -->
@@ -28,25 +28,42 @@
       </article>
     </section>
 
-    <ScrollTopButton />
+    <button
+      class="fixed bottom-4 right-4 block flex h-12 w-12 items-center justify-center rounded-full bg-gray-200 shadow-lg"
+      @click="scrollTop"
+    >
+      <svg
+        width="24"
+        height="24"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-chevrons-up h-8 w-8"
+      >
+        <!-- <polyline points="17 11 12 6 7 11"></polyline> -->
+        <!-- <polyline points="17 18 12 13 7 18"></polyline> -->
+        <polyline points="18 15 12 9 6 15"></polyline>
+      </svg>
+    </button>
   </main>
 </template>
 
 <script setup>
-  function openInBrowser(k) {
-    window.location = k.href
-  }
   const kataloge = [
     {
       year: 2022,
       name: 'Farben des Lebens',
       code: 'farben-des-lebens',
       file: 'C_Punkt_Ihle_Ausstellung_04_2022_A5_HU_DD.pdf',
-      href: '/katalog-farben-des-lebens.pdf', // 'C_Punkt_Ihle_Ausstellung_04_2022_A5_HU_DD.pdf',
+      // href: '/katalog-farben-des-lebens.pdf', // identisch mit unterem
+      href: 'https://ihle.cloud/wolfgang-ihle/Kataloge/farben-des-lebens/C_Punkt_Ihle_Ausstellung_04_2022_A5_HU_DD.pdf',
       thumb: '/katalog-farben-des-lebens.jpeg', // 'index.jpeg',
       desc: 'Katalog zur Ausstellung „Farben des Lebens“ im Münsterforum Freiburg',
       kommentar: '',
-      target: '_self',
+      target: '_blank',
     },
 
     {
@@ -64,7 +81,8 @@
       name: 'Nur Farbe',
       code: 'nur-farbe',
       file: 'katalog.pdf',
-      href: '/katalog-nur-farbe.pdf',
+      // href: '/katalog-nur-farbe.pdf', // identisch mit unterem
+      href: 'https://ihle.cloud/wolfgang-ihle/Kataloge/nur-farbe/katalog.pdf',
       thumb: '/katalog-nur-farbe-thumbnail.jpeg',
       desc: 'Katalog zur Ausstellung Galleries Ulrich Marx, Offenburg',
       target: '_blank',
@@ -156,10 +174,13 @@
       name: 'Natur - Spielgel des Inneren',
       code: 'natur-spiegel-des-inneren',
       file: 'spiegel-gesamt.pdf',
-      href: 'spiegel-gesamt.pdf',
+      // href: 'spiegel-gesamt.pdf', // identisch mit unterem:
+      href: 'https://ihle.cloud/wolfgang-ihle/Kataloge/natur-spiegel-des-inneren/spiegel-gesamt.pdf',
       thumb: 'natur-spiegel-des-inneren.jpeg',
       desc: 'Katalog zur Ausstellung im Museum im Ritterhaus, Offenburg, 1999: Wolfgang Ihle "Natur - Spiegel des Innern"',
       text: 'Den Text "Bilderfindung als Weltschöpfung" von Bernd Künzig finden sie hier als pdf-Dokument.',
+      target: '_blank',
+
       // files: [
       //   { name: 'spiegel-0-umschlag-vorne-farbe100dpi.pdf', label: 'Umschlag vorn 100dpi' },
       //   { name: 'spiegel-0-umschlag-vorne-farbe150dpi.pdf', label: 'Umschlag vorn 150dpi' },
@@ -176,4 +197,8 @@
       // ],
     },
   ]
+
+  function scrollTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' })
+  }
 </script>
