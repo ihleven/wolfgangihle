@@ -4,9 +4,9 @@
   >
     <section class="bg-black/25 pb-4 pt-4 backdrop-blur-sm backdrop-saturate-50">
       <article v-for="katalog in kataloge" :key="katalog.code" class="m-4 flex items-stretch gap-4">
-        <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2">
+        <div :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2" @click="openInBrowser(katalog)">
           <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" :data-scroll-top="false" />
-        </a>
+        </div>
         <label class="flex flex-1 basis-1/2 flex-col justify-start bg-black/20 px-2 text-left text-white">
           <h4 class="text-outline py-1 text-lg font-black">{{ katalog.year }}</h4>
           <!-- <h3 class="text-lg">{{ katalog.name }}</h3> -->
@@ -33,6 +33,9 @@
 </template>
 
 <script setup>
+  function openInBrowser(k) {
+    window.location = k.href
+  }
   const kataloge = [
     {
       year: 2022,
