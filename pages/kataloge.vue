@@ -1,8 +1,8 @@
 <template>
   <main
-    class="h-screen overflow-y-auto bg-[url('assets/unsplash/bernd-klutsch-nE2HV5AUXFo-unsplash.jpg')] bg-cover bg-no-repeat"
+    class="h-screen overflow-y-auto bg-[url('assets/unsplash/bernd-klutsch-nE2HV5AUXFo-unsplash.jpg')] bg-cover bg-center bg-no-repeat"
   >
-    <section class="bg-black/25 pb-4 pt-4 backdrop-blur-sm backdrop-saturate-50">
+    <section class="mx-auto max-w-screen-md bg-black/25 pb-4 pt-4 backdrop-blur-sm backdrop-saturate-50">
       <article v-for="katalog in kataloge" :key="katalog.code" class="m-4 flex items-stretch gap-4">
         <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2">
           <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" :data-scroll-top="false" />
@@ -15,7 +15,7 @@
       </article>
     </section>
 
-    <section class="bg-white/25 py-4 backdrop-blur-sm backdrop-saturate-50">
+    <section class="mx-auto max-w-screen-md bg-white/25 py-4 backdrop-blur-sm backdrop-saturate-50">
       <article v-for="katalog in kataloge2" :key="katalog.code" class="m-4 flex items-stretch gap-4">
         <a :href="katalog.href" :target="katalog.target" class="flex-1 basis-1/2" :data-scroll-top="true">
           <img :src="katalog.thumb" :alt="katalog.name" class="object-cover object-center" />

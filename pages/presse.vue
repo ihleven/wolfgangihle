@@ -1,6 +1,6 @@
 <template>
   <main>
-    <section class="mx-auto max-w-2xl sm:px-8 lg:max-w-5xl">
+    <section class="mx-auto max-w-screen-md sm:px-8">
       <header class="max-w-2xl pb-4 pt-8 text-center">
         <h1 class="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">Aus der Presse</h1>
         <!-- <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
@@ -8,7 +8,7 @@
         </p> -->
       </header>
 
-      <ul role="list" class="grid grid-cols-1 gap-x-4 gap-y-8 p-4 sm:grid-cols-3 sm:gap-x-6 lg:grid-cols-4 xl:gap-x-8">
+      <ul role="list" class="grid grid-cols-1 gap-x-4 gap-y-8 p-4">
         <li :data-scroll-top="false">
           <h3 class="pl-2 text-xs font-light text-gray-500">
             <span class="text-sm text-gray-700">2022</span> | Ausstellung "Farben des Lebens" im C-Punkt Münsterforum

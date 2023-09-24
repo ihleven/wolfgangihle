@@ -106,5 +106,6 @@
     texte: '/texte',
     presse: '/presse',
     kataloge: '/kataloge',
+    kontakt: '/kontakt',
   }
 </script>
