@@ -98,18 +98,20 @@
 
   function submitForm(e) {
     e.preventDefault()
-    const formData = new FormData(form.value)
-    const object = Object.fromEntries(formData)
-    const json = JSON.stringify(object)
+    // const formData = new FormData(form.value)
+    // const object = Object.fromEntries(formData)
+    // const json = JSON.stringify(object)
+
+    var data = new FormData(e.target);
     status.value = 100
 
-    fetch('https://api.web3forms.com/submit', {
+    fetch('https://formspree.io/f/xeojqpgp', {
       method: 'POST',
+      // 'Content-Type': 'application/json',
       headers: {
-        'Content-Type': 'application/json',
         Accept: 'application/json',
       },
-      body: json,
+      body: data,
     })
       .then(async response => {
         const json = await response.json()
